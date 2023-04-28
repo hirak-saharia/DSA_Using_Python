@@ -35,14 +35,14 @@ class DoublyLinkedList:
     # Implementing POP method for node One and Two
 
     def pop(self):
-        if self.length == 0:
+        if self.length == 0: # Situation 1: When we have zero item in the list.
             return None
         temp = self.tail # Since we're going to return it, we need to have a variable pointing to it will call temp.
-        if self.length == 1:
+        if self.length == 1: # Situation 2: When we have 1 item in the list
             self.head = None
             self.tail = None
         else:
-            self.tail = self.tail.prev
+            self.tail = self.tail.prev # When we have two or more items in the list.
             self.tail.next = None
             temp.prev = None
         self.length -= 1

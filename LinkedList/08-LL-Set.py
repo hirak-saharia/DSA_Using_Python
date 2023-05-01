@@ -35,12 +35,24 @@ class LinkedList:
             temp = temp.next
         return temp
     
+# This code defines a set_value method for a LinkedList Class.
+# The purpose of this method is to update the value of the node at the specified index in the linked list.
 
     def set_value(self, index, value):
+
+        # Call the "get" method to find the node at the specified index
         temp = self.get(index)
+
+        # Check if a valid node was found at the specified index
         if temp:
+
+            # Update the value of the found node with the given value
             temp.value = value
+
+            # Return True to indicate that the value was updated successfully
             return True
+        
+        # If no valid node was found, return False to indicate that the value was not updated.
         return False
     
 

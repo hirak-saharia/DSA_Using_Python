@@ -77,4 +77,4 @@ print('\nmy_dll_2 is_palindrom:')
 print( my_dll_2.is_palindrom() )
 
 
-my_dll_1.print_list()
+# my_dll_1.print_list()

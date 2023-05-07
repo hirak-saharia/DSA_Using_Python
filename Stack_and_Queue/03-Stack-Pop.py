@@ -28,8 +28,7 @@ class Stack:
         return True
 
 
-    def pop(self, value):
-        new_node = Node(value)
+    def pop(self):
 
         # If the stack is empty
         if self.height == 0:
@@ -66,7 +65,7 @@ print('Stack before pop():')
 my_stack.print_stack()
 
 print('\nPopped node:')
-print(my_stack.pop(7).value)
+print(my_stack.pop().value)
 
 print('\nStack after pop():')
 my_stack.print_stack()

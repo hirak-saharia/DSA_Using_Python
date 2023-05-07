@@ -14,9 +14,9 @@ class Stack:
         self.bottom = new_node
 
         # Initialize a height attribute for the Stack class, which represents the current number of nodes in the stack, and set it to 1
-        self.length = 1
+        self.height = 1
 
-    def print_list(self):
+    def print_stack(self):
         temp = self.top
         while temp is not None:
             print(temp.value)
@@ -24,4 +24,4 @@ class Stack:
 
 my_stack = Stack(4)
 
-my_stack.print_list()
+my_stack.print_stack()

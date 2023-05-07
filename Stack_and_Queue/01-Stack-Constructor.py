@@ -25,3 +25,6 @@ class Stack:
 my_stack = Stack(4)
 
 my_stack.print_stack()
+
+print('Top:', my_stack.top.value)
+print('Height:', my_stack.height)

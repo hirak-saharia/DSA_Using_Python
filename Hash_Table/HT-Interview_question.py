@@ -15,7 +15,7 @@ list2 = [2,4,5]
 print(item_in_common(list1,list2))
 
 
-# The effiecient to find match from the list1 and list2 using hash table method
+# The more effiecient way to find match from the list1 and list2 using hash table method
 # Approach 2:
 
 def item_in_common(list1, list):

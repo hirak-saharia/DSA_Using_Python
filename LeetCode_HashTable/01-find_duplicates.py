@@ -53,3 +53,6 @@ print(find_duplicates([1,2,3,3,3,4,4,5]))
 print(find_duplicates([1,1,1,2,2,2,3,3,3,3]))
 print(find_duplicates([1,1,1,2,2,2,3,3,3,3,3]))
 print(find_duplicates([]))
+
+
+# Note: It has a time complexity of O(n), where n is the length of the input array, beacuse that hash table operations take constant time. This is more efficient than a brute-force solution that checks all pairs of numbers in the array, which would have a time complexity of O(n^2).

@@ -42,11 +42,11 @@ my_hash_table.print_table()
 
 
 
-#Output: 
-0 :  None
-1 :  None
-2 :  None
-3 :  None
-4 :  None
-5 :  None
-6 :  None
+# #Output: 
+# 0 :  None
+# 1 :  None
+# 2 :  None
+# 3 :  None
+# 4 :  None
+# 5 :  None
+# 6 :  None

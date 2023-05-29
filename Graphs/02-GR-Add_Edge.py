@@ -14,7 +14,7 @@ class Graph:
             return True
         return
     
-    # The metod takes two parameters v1 and v2, which are the vertices that the edge should be added between.
+    # The method takes two parameters v1 and v2, which are the vertices that the edge should be added between.
     def add_edge(self, v1, v2):
 
         # check that both vertex v1 and v2 are already in the graph

@@ -56,7 +56,7 @@ class LinkedList:
 
 
             # Find the node with the smallest value among the remaining nodes
-            # So, enters am inner while loop that contains until inner_current is None. 
+            # So, enters an inner while loop that contains until inner_current is None. 
             while inner_current is not None:
                 # checks if the value of inner_current is smaller than the value of smallest
                 if inner_current.value < smallest.value:

@@ -1,3 +1,5 @@
+# Write a function called dfs_post_order that performs a Depth-First-Search traversal on a binary tree using Post-Order approach.
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -69,19 +71,24 @@ class BinarySearchTree:
         return results
     
     def dfs_post_order(self):
-        results = []
+        results = [] # create an empty list to store the valus of visited nodes
 
         def traverse(current_node):
+            # if the current node has a left child, recursively traverse it 
             if current_node.left is not None:
                 traverse(current_node.left)
             
+            # if the current node has a right child, then recursively traverse it
             if current_node.right is not None:
                 traverse(current_node.right)
 
+            # Append the post-order traversal from the root of the tree
             results.append(current_node.value)
 
+        # start the post-order traversal from the root of the tree
         traverse(self.root)
 
+        # return the list of visited node values
         return results
 
 my_tree = BinarySearchTree()
